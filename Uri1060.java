@@ -18,5 +18,16 @@ public class Uri1060{
         System.out.println(qtde+" valores positivos");
 
         
+
+        float valorFloat = teclado.nextFloat();
+        int   valorInt   = ((int) valorFloat);
+
+        float fracao = valorFloat - valorInt;
+
+        int centavos = (int) (fracao * 100);
+        
+
+
+
     }
 }
